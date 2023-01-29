@@ -108,7 +108,7 @@ footer address {
     font-size: 0.8em;
     margin-top: 20px;
 }
-@media (min-width: 500px) and (min-width: 768px) {
+@media (min-width: 600px){
     .grid { 
     display: grid;
     grid-template-columns: 1fr 1fr;   
@@ -133,7 +133,8 @@ footer address {
         grid-row: 6;
         }
 }
-@media (min-width: 768px){
+
+@media only screen and (min-width: 769px) {
     .grid { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;   
